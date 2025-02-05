@@ -1,0 +1,61 @@
+body {
+  font-family: 'Century Gothic', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 100%;
+  max-width: 768px;
+  height: 432px;
+  border: none;
+  border-radius: 8px;
+}
+
+iframe:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.fullscreen-button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.fullscreen-button:hover {
+  background-color: #005fa4;
+}
